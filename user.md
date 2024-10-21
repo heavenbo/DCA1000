@@ -23,5 +23,5 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 ![连接](C:\Users\Administrator\Downloads\图片1.jpg)
 将DCA1000连接电源，将两个usb口、网线连接电脑，打开软件，出现以下界面即成功连接
 ## 查看端口
-进行设备管理器，查看串口，如图所示即算连接成功
+进行设备管理器，查看串口，如图所示即算连接成功  
 ![端口](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%AB%AF%E5%8F%A3.png)
