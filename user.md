@@ -26,6 +26,8 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 将雷达与DCA1000连接，如图所示：  
 ![连接](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5.jpg)
 ## 模式调整
+AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP2为高位）  
+
 将DCA1000连接电源，将两个usb口、网线连接电脑，打开软件，出现以下界面即成功连接
 ## 查看端口
 进行设备管理器，查看串口，如图所示即算连接成功  
