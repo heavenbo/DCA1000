@@ -21,7 +21,7 @@
 win10操作：网络和 Internet 设置->找到高级网络设置->更多网络适配器选项->以太网->属性->Internet 协议版本 4 (TCP/IPv4)，将地址修改为：
 >IP地址：192.168.33.30  
 >子网掩码：255.255.255.0
-# 连接设备
+# 设备调试
 ## 硬件组装
 将雷达与DCA1000连接，如图所示：
 ![连接](C:\Users\Administrator\Downloads\图片1.jpg)
@@ -29,3 +29,4 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 ## 查看端口
 进行设备管理器，查看串口，如图所示即算连接成功  
 ![端口](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%AB%AF%E5%8F%A3.png)
+## 软件界面操作
