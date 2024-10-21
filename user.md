@@ -33,11 +33,13 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 将DCA1000上数据位数拨为16位  
 
 ![DCA1000](https://github.com/heavenbo/DCA1000/blob/main/photo/DCA1000.png)  
+## 查看端口
+将DCA1000连接电源，将两个usb口、网线连接电脑，进入设备管理器，查看串口，如图所示即算连接成功  
+
+![端口](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%AB%AF%E5%8F%A3.png)  
+将端口波特率设为115200
 ## 连接电脑
-将DCA1000连接电源，将两个usb口、网线连接电脑，打开软件，出现软件出现以下界面，按顺序操作  
+打开软件，出现软件出现以下界面，按顺序操作  
 
 ![软件gui](https://github.com/heavenbo/DCA1000/blob/main/photo/%E8%BD%AF%E4%BB%B6gui.png)
-## 查看端口
-进行设备管理器，查看串口，如图所示即算连接成功  
-![端口](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%AB%AF%E5%8F%A3.png)
 ## 软件界面操作
