@@ -24,9 +24,8 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 # 设备调试
 ## 硬件组装
 将雷达与DCA1000连接，如图所示：  
-<center>
-  ![连接](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5.jpg)
-</center>
+
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5.jpg" width="400px"></img></div>
 ## 模式调整
 AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP2为高位）  
 
