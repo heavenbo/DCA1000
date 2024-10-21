@@ -39,5 +39,5 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 打开软件，出现软件出现以下界面，按顺序操作  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="800px"></img></div>
 连接后，所有状态变为绿色  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="800px"></img></div>
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/success_spi.png" width="400px"></img></div>
 ## 软件界面操作
