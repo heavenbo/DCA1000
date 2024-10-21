@@ -14,9 +14,9 @@
 用于c++编写，下载地址：[Microsoft Visual C++](https://support.microsoft.com/en-us/topic/update-for-visual-c-2013-and-visual-c-redistributable-package-5b2ac5ab-4139-8acc-08e2-9578ec9b2cf1)
 > English - United States    https://download.microsoft.com/download/0/5/6/056DCDA9-D667-4E27-8001-8A0C6971D6B1/vcredist_x64.exe
 -->
-## CCS驱动
-下载[CCS驱动](https://www.ti.com.cn/tool/cn/download/CCSTUDIO-THEIA)
-> CCSTheia1.2.0.00007_win64.zip  — 745285 K
+## xds110驱动
+下载[xds110驱动](https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_xds_software_package_download.html)
+> XDS110 Support Utilities windows
 ## 电脑IP调整
 win10操作：网络和 Internet 设置->找到高级网络设置->更多网络适配器选项->以太网->属性->Internet 协议版本 4 (TCP/IPv4)，将地址修改为：
 >IP地址：192.168.33.30  
