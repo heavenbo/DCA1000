@@ -27,10 +27,16 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 ![连接](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5.jpg)
 ## 模式调整
 AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP2为高位）  
+
 ![AWR1843BOOST](https://github.com/heavenbo/DCA1000/blob/main/photo/AWR184.png)  
-2.	将DCA1000上数据位数拨为16位  
+
+将DCA1000上数据位数拨为16位  
+
 ![DCA1000](https://github.com/heavenbo/DCA1000/blob/main/photo/DCA1000.png)  
-将DCA1000连接电源，将两个usb口、网线连接电脑，打开软件，出现以下界面即成功连接
+## 连接电脑
+将DCA1000连接电源，将两个usb口、网线连接电脑，打开软件，出现以下界面即成功连接  
+
+![DCA1000](https://github.com/heavenbo/DCA1000/blob/main/photo/DCA1000.png)  
 ## 查看端口
 进行设备管理器，查看串口，如图所示即算连接成功  
 ![端口](https://github.com/heavenbo/DCA1000/blob/main/photo/%E7%AB%AF%E5%8F%A3.png)
