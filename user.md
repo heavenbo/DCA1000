@@ -20,7 +20,8 @@
 
 ## 1.4 关闭防火墙
 windows11系统直接在搜索栏搜索：**windows defender 防火墙**，然后点击左侧的**启用或关闭Windows Defender 防火墙**，如图操作
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/defender.png" width="600px"></img></div>
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/defender.png" width="600px"></img></div>  
+
 # 二 设备调试
 ## 2.1 硬件组装
 将雷达与DCA1000连接，如图所示：  
