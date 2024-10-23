@@ -1,4 +1,4 @@
-# 1 软件准备
+# 一 软件准备
 ## 1.1 安装mmWaveStudio
 下载软件：[mmWaveStudio](https://www.ti.com.cn/tool/cn/MMWAVE-STUDIO#downloads).
 > MMWAVE-STUDIO — 用于第 1 代部件 (xWR1243、xWR1443、xWR1642、xWR1843、xWR6843、xWR6443) 的 mmWave Studio GUI 工具
@@ -17,14 +17,11 @@
 ## 1.3 xds110驱动
 下载[xds110驱动](https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_xds_software_package_download.html)
 > XDS110 Support Utilities windows
-## 1.4 电脑IP调整
-win10操作：网络和 Internet 设置->找到高级网络设置->更多网络适配器选项->以太网->属性->Internet 协议版本 4 (TCP/IPv4)，将地址修改为：
-> IP地址：192.168.33.30  
-> 子网掩码：255.255.255.0
-## 1.5 关闭防火墙
+
+## 1.4 关闭防火墙
 windows11系统直接在搜索栏搜索：**windows defender 防火墙**，然后点击左侧的**启用或关闭Windows Defender 防火墙**，如图操作
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/defender.png" width="600px"></img></div>
-# 2 设备调试
+# 二 设备调试
 ## 2.1 硬件组装
 将雷达与DCA1000连接，如图所示：  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/AWR1843_DCA1000.jpg" width="400px"></img></div>
@@ -41,14 +38,20 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/port.png" width="400px"></img></div>
 将端口波特率设为115200
 
-## 2.4 连接电脑
+## 2.4 电脑IP调整
+win10操作：网络和 Internet 设置->找到高级网络设置->更多网络适配器选项->以太网->属性->Internet 协议版本 4 (TCP/IPv4)，将地址修改为：
+> IP地址：192.168.33.30  
+> 子网掩码：255.255.255.0
+
+并且虽然之后可以看到FPGA的IP地址为**192.168.33.180**，但是却会ping不通
+## 2.5 连接电脑
 打开软件，出现软件出现以下界面，按顺序操作  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="600px"></img></div>  
 在操作时，可以将output放在屏幕右侧，观察工作台输出，如图  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/output.jpg" width="600px"></img></div> 
 连接后，所有状态变为绿色  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/success_spi.png" width="400px"></img></div>
-# 3 数据配置与采集
+# 三 数据配置与采集
 ## 3.1 Static config
 操作顺序如图  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticonfig.png" width="600px"></img></div>
