@@ -19,8 +19,8 @@
 > XDS110 Support Utilities windows
 ## 电脑IP调整
 win10操作：网络和 Internet 设置->找到高级网络设置->更多网络适配器选项->以太网->属性->Internet 协议版本 4 (TCP/IPv4)，将地址修改为：
->IP地址：192.168.33.30  
->子网掩码：255.255.255.0
+> IP地址：192.168.33.30  
+> 子网掩码：255.255.255.0
 # 设备调试
 ## 硬件组装
 将雷达与DCA1000连接，如图所示：  
@@ -48,5 +48,8 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 
 ## Static config
 操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticconfig.png" width="400px"></img></div> 
-在Channel Config中选择相应的接收和发射天线数。
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticonfig.png" width="400px"></img></div>
+
+> 在Channel Config中选择相应的接收和发射天线数  
+> 在Advanced Configuration ，如果电路板提供1V RF电源，勾选RF LDO Bypass Enable；如果是1.3V的就不用勾选。点击set。  
+> 在LP Mode 中选择相应的LP ADC Mode。Low Power ADC适用于xWR1642，Regular ADC适用于AWR1243和xWR1443。点击set。
