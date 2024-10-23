@@ -77,3 +77,10 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 ## 3.4 result
 点击PostProc，出现如下结果,即表示这次测试成功：
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/result.png" width="600px"></img></div>  
+
+#参考资料
+>	《mmwave_studio_user_guide》---讲软件如何使用
+>	《DCA1000EVM用户指南》----讲硬件如何设置
+>	[雷达数据采集DCA1000EVM使用指南](https://blog.csdn.net/bigData1994pb/article/details/117112725)
+>	[使用TI AWR1843 Boost EVM和 DCA1000 EVM 实时采集ADC数据并解析_ti awr1843—使用MATLAB控制](https://blog.csdn.net/u011736505/article/details/117808754)
+>	[Xiaojie雷达之路---TI实战笔记---对AWR1843+DCA1000采集的数据进行解析](https://blog.csdn.net/Xiao_Jie123/article/details/112028352)
