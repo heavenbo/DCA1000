@@ -23,7 +23,7 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 > 子网掩码：255.255.255.0
 ## 1.5 关闭防火墙
 windows11系统直接在搜索栏搜索：**windows defender 防火墙**，然后点击左侧的**启用或关闭Windows Defender 防火墙**，如图操作
-
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/defender.png" width="400px"></img></div>
 # 2 设备调试
 ## 2.1 硬件组装
 将雷达与DCA1000连接，如图所示：  
