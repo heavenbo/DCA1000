@@ -40,16 +40,17 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 
 ## 连接电脑
 打开软件，出现软件出现以下界面，按顺序操作  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="800px"></img></div>  
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="600px"></img></div>  
 在操作时，可以将output放在屏幕右侧，观察工作台输出，如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/output.jpg" width="800px"></img></div> 
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/output.jpg" width="600px"></img></div> 
 连接后，所有状态变为绿色  
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/success_spi.png" width="400px"></img></div>
 
 ## Static config
 操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticonfig.png" width="400px"></img></div>
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticonfig.png" width="600px"></img></div>
 
 > 在Channel Config中选择相应的接收和发射天线数  
 > 在Advanced Configuration ，如果电路板提供1V RF电源，勾选RF LDO Bypass Enable；如果是1.3V的就不用勾选。点击set。  
 > 在LP Mode 中选择相应的LP ADC Mode。Low Power ADC适用于xWR1642，Regular ADC适用于AWR1243和xWR1443。点击set。
+## Date Config
