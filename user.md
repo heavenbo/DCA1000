@@ -48,5 +48,5 @@ AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP
 
 ## Static config
 操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticconfig.jpg" width="800px"></img></div> 
+<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticconfig.png" width="400px"></img></div> 
 在Channel Config中选择相应的接收和发射天线数。
