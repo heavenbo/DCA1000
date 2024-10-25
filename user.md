@@ -78,7 +78,7 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 点击PostProc，出现如下结果,即表示这次测试成功：
 <div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/result.png" width="600px"></img></div>  
 
-#参考资料
+# 参考资料
 >	《mmwave_studio_user_guide》---讲软件如何使用  
 >	[DCA1000EVM用户指南----讲硬件如何设置](https://e2echina.ti.com/blogs_/b/the_process/posts/dca1000evm)  
 >	[雷达数据采集DCA1000EVM使用指南](https://blog.csdn.net/bigData1994pb/article/details/117112725)  
