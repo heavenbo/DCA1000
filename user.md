@@ -20,23 +20,23 @@
 
 ## 1.4 关闭防火墙
 windows11系统直接在搜索栏搜索：**windows defender 防火墙**，然后点击左侧的**启用或关闭Windows Defender 防火墙**，如图操作
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/defender.png" width="600px"></img></div>  
+<div align=center><img src="photo/defender.png" width="600px"></img></div>  
 
 # 二 设备调试
 ## 2.1 硬件组装
 将雷达与DCA1000连接，如图所示：  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/AWR1843_DCA1000.jpg" width="400px"></img></div>
+<div align=center><img src="photo/AWR1843_DCA1000.jpg" width="400px"></img></div>
 
 ## 2.2 模式调整
 AWR1843BOOST中S2开关调整为SPI模式，雷达板上的拨码调为011（SOP2为高位）  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/AWR184.png" width="400px"></img></div>
+<div align=center><img src="photo/AWR184.png" width="400px"></img></div>
 
 将DCA1000上数据位数拨为16位  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/DCA1000.png" width="400px"></img></div>
+<div align=center><img src="photo/DCA1000.png" width="400px"></img></div>
 
 ## 2.3 查看端口
 将DCA1000连接电源，将两个usb口、网线连接电脑，进入设备管理器，查看串口，如图所示即算连接成功  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/port.png" width="400px"></img></div>
+<div align=center><img src="photo/port.png" width="400px"></img></div>
 将端口波特率设为115200
 
 ## 2.4 电脑IP调整
@@ -47,36 +47,36 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 并且虽然之后可以看到FPGA的IP地址为**192.168.33.180**，但是却会ping不通
 ## 2.5 连接电脑
 打开软件，出现软件出现以下界面，按顺序操作  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/gui.png" width="600px"></img></div>  
+<div align=center><img src="photo/gui.png" width="600px"></img></div>  
 在操作时，可以将output放在屏幕右侧，观察工作台输出，如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/output.jpg" width="600px"></img></div> 
+<div align=center><img src="photo/output.jpg" width="600px"></img></div> 
 连接后，所有状态变为绿色  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/success_spi.png" width="400px"></img></div>
+<div align=center><img src="photo/success_spi.png" width="400px"></img></div>
 # 三 数据配置与采集
 ## 3.1 Static config
 操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/staticonfig.png" width="600px"></img></div>
+<div align=center><img src="photo/staticonfig.png" width="600px"></img></div>
 
 > 在Channel Config中选择相应的接收和发射天线数  
 > 在Advanced Configuration ，如果电路板提供1V RF电源，勾选RF LDO Bypass Enable；如果是1.3V的就不用勾选。点击set。  
 > 在LP Mode 中选择相应的LP ADC Mode。Low Power ADC适用于xWR1642，Regular ADC适用于AWR1243和xWR1443。点击set。
 ## 3.2 Date Config
 操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/dataconfig.png" width="600px"></img></div>  
+<div align=center><img src="photo/dataconfig.png" width="600px"></img></div>  
 
 > 在LVDS Lane Configuration中选择相应的通道。xWR1642支持最多两个通道，AWR1243和xWR1443最多支持4通道。点击set。
 ## 3.3 sensor config
 在这里配置雷达波形，操作顺序如图  
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/sensorconfig.png" width="600px"></img></div>  
+<div align=center><img src="photo/sensorconfig.png" width="600px"></img></div>  
 
 在第五步点击最左侧的Set Up DCA1000后，点击弹窗中的connect，Reset and Configure，出现如下界面，表明FPGA Version正确。
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/FPGA.png" width="400px"></img></div>  
+<div align=center><img src="photo/FPGA.png" width="400px"></img></div>  
 
 > 点击Trigger Frame，LED灯DATA_TRAN_RPG绿光不停闪烁，表明正在获取数据。  
 > 在数据获取结束之后，LED灯DATA_TRAN_RPG绿光闪烁一次，并保持常绿。表明数据获取成功。
 ## 3.4 result
 点击PostProc，出现如下结果,即表示这次测试成功：
-<div align=center><img src="https://github.com/heavenbo/DCA1000/blob/main/photo/result.png" width="600px"></img></div>  
+<div align=center><img src="photo/result.png" width="600px"></img></div>  
 
 # 参考资料
 >	《mmwave_studio_user_guide》---讲软件如何使用  
