@@ -47,9 +47,9 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 并且虽然之后可以看到FPGA的IP地址为**192.168.33.180**，但是却会ping不通
 ## 2.5 连接电脑
 打开软件，出现软件出现以下界面，按顺序操作  
-<div align=center><img src="photo/gui.png" width="600px"></img></div>  
+<div align=center><img src="photo/gui.png" width="1000px"></img></div>  
 在操作时，可以将output放在屏幕右侧，观察工作台输出，如图  
-<div align=center><img src="photo/output.jpg" width="600px"></img></div> 
+<div align=center><img src="photo/output.jpg" width="1000px"></img></div> 
 连接后，所有状态变为绿色  
 <div align=center><img src="photo/success_spi.png" width="400px"></img></div>
 # 三 数据配置与采集
