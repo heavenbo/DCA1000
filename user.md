@@ -62,7 +62,7 @@ win10操作：网络和 Internet 设置->找到高级网络设置->更多网络�
 > 在LP Mode 中选择相应的LP ADC Mode。Low Power ADC适用于xWR1642，Regular ADC适用于AWR1243和xWR1443。点击set。
 ## 3.2 Date Config
 操作顺序如图  
-<div align=center><img src="photo/dataconfig.png" width="600px"></img></div>  
+<div align=center><img src="photo/dataconfig.png" width="1000px"></img></div>  
 
 > 在LVDS Lane Configuration中选择相应的通道。xWR1642支持最多两个通道，AWR1243和xWR1443最多支持4通道。点击set。
 ## 3.3 sensor config
